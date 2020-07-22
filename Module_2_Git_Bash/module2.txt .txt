@@ -1,0 +1,14 @@
+﻿What is Git and how is it different from GitHub?
+Git is where one is actually able to make repositories and see one’s work progression. Repositories are like a saved version of work. GitHub is the publicized version of this that allows others to view your work as well, and see your progression in these repositories. The way I like to think of it it’s a place to share the work you’ve done. 
+
+
+Why use the Terminal?
+As a programmer, we don't make changes from the front end, it isn’t like we drag- click and we’re there. Programmers need to understand the back end so when you can’t see the front end you can navigate the same. This allows one to create files and directories and delete things without actually dragging what you need into the garbage.
+
+
+
+
+Explain 3 benefits version control in your own words? 
+* Being able to track one’s progression within code. 
+* Allows for several people to be able to visualize this code. 
+* Revisit the same work or other’s work to reference off of it.
