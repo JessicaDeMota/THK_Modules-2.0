@@ -4,9 +4,9 @@ body{
     max-width : 50%;
     background-color: hex #0F0A0A;
 }
-    {
-        box-sizing: border-box;
-    }
+* {
+     box-sizing:border-box;
+}
 
 ul {
     margin: 0;
@@ -28,7 +28,7 @@ ul li {
     user-select : none;
 }
 
-ul li: nth-child (odd)
+ul li:nth-child(odd)
 {
     background : #D66853;
 }
@@ -38,12 +38,12 @@ ul li:hover {
 }
 
 ul li.checked {
-    background : #F26419
-    color : white; 
+    background : #F26419;
+    color: white; 
     text-decoration:line-through;
 }
 
-ul li.checked :: before {
+ul li.checked::before {
     content : ' ';
     position : absolute;
     border-color: #D66853;
@@ -64,18 +64,18 @@ ul li.checked :: before {
 }
 
 .close:hover{
-    background-color : #D66853
+    background-color : #D66853;
     color: white;
 }
 
 .header {
-    background-color:#D66853
+    background-color:#D66853;
     padding : 30px 40px;
     color : white;
     text-align :center;
 }
 
-.header: after {
+.header:after {
     content : "";
     display : table;
     clear : both;
@@ -94,7 +94,7 @@ input {
 .addBtn{
     padding : 10px;
     width : 25%;
-    background:#D66853
+    background:#D66853;
     color :#DDD1C7;
     float : left;
     text-align: center;
@@ -104,16 +104,16 @@ input {
     border-radius : 0;
 }
 
-.addBtn : hover{
+.addBtn:hover{
     background-color :#F7F3F3;
 }
 
 #clear-list{
-    width : 30%
-    font-weight: bold;
-    font-style : italic;
+    width : 30%;
+    font-weight:bold;
+    font-style :italic;
     font-size : xx-large;
-    font-family: "Times New Roman";
+    font-family:"Times New Roman";
     background-color : darkblue;
     color : white;
 }
@@ -123,4 +123,3 @@ input {
     color : white; 
 }
 
-}
