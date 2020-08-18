@@ -1,0 +1,32 @@
+<!DOCTYPE html >
+<html >
+    <head>
+        <link rel = "stylesheet" type = "text/css"
+    href = "css\to_do_list.css" >
+    </head>
+    <body>
+
+        <div class = "header" >
+            <h2 style = "margin: 5px" >To Do List </h2>
+            <input type = "text" id = "my Input"
+            placeholder = "Title.." >
+                <span onclick = "newElement( )"
+                class = "addBtn">Add</span>
+         </div>
+        
+         <ul id = "myUL">
+             <li class = "checked" > Set your goals for the day.</lu>
+             <li> Take notes on the module </li>
+             <li>Watch video turtorials if needed to </li>
+             <li  class = "checked"> Mediate </li>
+             <li>Start Javascript projects</li>
+             <li>Get help on those projects</li>
+             <li>Make sure all understanding is there</li>
+         </ul>
+            <button type = "button" id = "clear-list" onclick = "removeAll( )" > Clear Items</button>
+
+            <script type = "text/Javascript" src = "js/to do list.js "></script>
+
+    </body>
+</html>
+
