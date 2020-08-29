@@ -16,7 +16,7 @@ let word$ = [ ]
 for(let word of words)
 {
     let transfomedword = word.replace('s','$' )
-    word$.push(transformedword)
+    word$.push(transformedWord)
 }
 
 console.log(word$)

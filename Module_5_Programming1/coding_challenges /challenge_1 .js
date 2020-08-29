@@ -1,4 +1,4 @@
-CHALLENGE 1 :
+//CHALLENGE 1 :
 //Below have a list of full names, we want to split these names into an array containing the first and last names as separate items
 //Then we want to push these names to two different arrays named first_name, last_name 
 //[“ Westley Snipes” , “Nicholas Cage” , “Nasir Jones”, “Sean Carter”, “ Sean Combs”, 
